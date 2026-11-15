@@ -1,0 +1,79 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60" result="blur"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="340" rx="16" fill="url(#bgGradient)"/>
+  <rect width="1200" height="340" rx="16" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Subtle ambient glow circles -->
+  <circle cx="200" cy="80" r="120" fill="#f97316" opacity="0.12" filter="url(#glow)"/>
+  <circle cx="1000" cy="240" r="140" fill="#8b5cf6" opacity="0.14" filter="url(#glow)"/>
+
+  <!-- Top badge -->
+  <rect x="60" y="44" width="168" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <circle cx="76" cy="58" r="4" fill="#f97316"/>
+  <text x="88" y="63" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#fdba74" letter-spacing="0.08em">AETHEROS ECOSYSTEM</text>
+
+  <!-- Project Title -->
+  <text x="60" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#ffffff" letter-spacing="-0.02em">
+    Aether Agent Suite
+  </text>
+
+  <!-- Subtitle Tagline -->
+  <text x="60" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#94a3b8">
+    Unified Autonomous Multi-Agent AI Operating System &amp; Business Automation Studio
+  </text>
+
+  <!-- Divider Line -->
+  <rect x="60" y="210" width="1080" height="1" fill="#1e293b"/>
+
+  <!-- Tech Pills Row -->
+  <!-- Pill 1 -->
+  <g transform="translate(60, 236)">
+    <rect width="210" height="42" rx="8" fill="url(#pillGrad)" stroke="#334155" stroke-width="1"/>
+    <circle cx="22" cy="21" r="5" fill="#38bdf8"/>
+    <text x="36" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Next.js 16 · React 19</text>
+  </g>
+
+  <!-- Pill 2 -->
+  <g transform="translate(290, 236)">
+    <rect width="240" height="42" rx="8" fill="url(#pillGrad)" stroke="#334155" stroke-width="1"/>
+    <circle cx="22" cy="21" r="5" fill="#f59e0b"/>
+    <text x="36" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Claude 3.5 / 4 Sonnet</text>
+  </g>
+
+  <!-- Pill 3 -->
+  <g transform="translate(550, 236)">
+    <rect width="260" height="42" rx="8" fill="url(#pillGrad)" stroke="#334155" stroke-width="1"/>
+    <circle cx="22" cy="21" r="5" fill="#ec4899"/>
+    <text x="36" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Nexus Multi-Agent Mesh</text>
+  </g>
+
+  <!-- Pill 4 -->
+  <g transform="translate(830, 236)">
+    <rect width="260" height="42" rx="8" fill="url(#pillGrad)" stroke="#334155" stroke-width="1"/>
+    <circle cx="22" cy="21" r="5" fill="#10b981"/>
+    <text x="36" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Brand Context Ingestion</text>
+  </g>
+
+  <!-- Accent bar at bottom -->
+  <rect x="0" y="334" width="1200" height="6" rx="3" fill="url(#accentGrad)"/>
+</svg>
