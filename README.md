@@ -5,9 +5,10 @@
 [![Next.js 16](https://img.shields.io/badge/Next.js-16.2.4-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![React 19](https://img.shields.io/badge/React-19.2.4-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Anthropic Claude](https://img.shields.io/badge/Anthropic-Claude_3.5_%2F_4-D97706?style=for-the-badge&logo=anthropic&logoColor=white)](https://console.anthropic.com/)
-[![AetherOS](https://img.shields.io/badge/AetherOS-Agent_Suite-E8461F?style=for-the-badge)](https://github.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](#-license--attribution)
+[![Anthropic Claude](https://img.shields.io/badge/Anthropic-Claude_Sonnet_4_%2F_Opus_4-D97706?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com/)
+[![AetherOS](https://img.shields.io/badge/AetherOS-Agent_Suite-E8461F?style=for-the-badge)](https://github.com/Emincanozen/aether-agent-suite)
+[![CI](https://github.com/Emincanozen/aether-agent-suite/actions/workflows/ci.yml/badge.svg)](https://github.com/Emincanozen/aether-agent-suite/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 **The Unified Autonomous Multi-Agent AI Operating System & Business Automation Studio**
 
@@ -324,6 +325,19 @@ Every agent consults your brand context before generating content, proposals, or
    - **Ideal Customer Profile (ICP)**: Decision-maker roles, pain points, and objections.
 
 ---
+
+## 🔗 Related Projects
+
+Each agent of the suite is also published as its own repository:
+
+| Agent | Role | Repository |
+|---|---|---|
+| Valkyrie | E-commerce and UGC video studio | [valkyrie-ugc-commerce](https://github.com/Emincanozen/valkyrie-ugc-commerce) |
+| Echo | Sales call and deal intelligence | [echo-call-intelligence](https://github.com/Emincanozen/echo-call-intelligence) |
+| Muse | Copywriting and editorial carousels | [muse-editorial-engine](https://github.com/Emincanozen/muse-editorial-engine) |
+| Pulse | Viral trend and Reels radar | [pulse-trend-radar](https://github.com/Emincanozen/pulse-trend-radar) |
+| Hunter | B2B outbound and lead pipeline | [hunter-outbound-engine](https://github.com/Emincanozen/hunter-outbound-engine) |
+| Closer | Commercial proposal PDF studio | [closer-proposal-studio](https://github.com/Emincanozen/closer-proposal-studio) |
 
 ## 📄 License & Attribution
 
